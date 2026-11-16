@@ -4,9 +4,9 @@ config.py  -  THE ONLY FILE YOU NEED TO EDIT
 Brand: Eliteora  |  Premium affiliate edition (product image card)
 
 For each product fill in:
-  link        - your affiliate link
-  image_url   - PUBLIC link of the product image (ends with .jpg or .png)
-  card_title  - product name shown on the card (max 80 characters)
+  link        "https://bitli.in/XI4lk5w",
+  image_url   - https://raw.githubusercontent.com/eliteora/eliteora-images/main/eliteora_product_square_1080.jpg
+  card_title  - "Eliteora Glow Lamp",
 Search for  PASTE-  to find everything you still need to replace.
 Use {name} for the customer's first name and {link} for the product link.
 """
@@ -32,7 +32,7 @@ PRODUCTS = [
         "name": "Top Pick",
         "keywords": ["link", "pick", "premium"],
         "link": "https://bitli.in/XI4lk5w",
-        "image_url": "PASTE-YOUR-IMAGE-LINK-1-HERE",
+        "image_url": "image_url": "https://raw.githubusercontent.com/eliteora/eliteora-images/main/eliteora_product_square_1080.jpg",
         "card_title": "Eliteora Top Pick",
         "card_subtitle": "Hand-picked for quality & value",
         "button_text": "Shop Now",
